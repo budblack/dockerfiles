@@ -4,3 +4,4 @@ MAINTAINER budblack@qq.com
 EXPOSE 80 9599 9598 9597
 
 ADD ./nginx.conf /etc/nginx/nginx.conf
+ADD ./htpasswd /etc/nginx/htpasswd
