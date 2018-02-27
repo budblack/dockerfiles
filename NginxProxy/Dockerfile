@@ -11,3 +11,6 @@ ADD ./io.tool.budblack.me.key /etc/nginx/io.tool.budblack.me.key
 
 ADD ./ydtx.bianbiankj.com.crt /etc/nginx/ydtx.bianbiankj.com.crt
 ADD ./ydtx.bianbiankj.com.key /etc/nginx/ydtx.bianbiankj.com.key
+
+ADD ./msign.alpha.budblack.me.crt /etc/nginx/msign.alpha.budblack.me.crt
+ADD ./msign.alpha.budblack.me.key /etc/nginx/msign.alpha.budblack.me.key
