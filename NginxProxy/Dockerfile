@@ -17,3 +17,6 @@ ADD ./msign.alpha.budblack.me.key /etc/nginx/msign.alpha.budblack.me.key
 
 ADD ./url.tool.budblack.me.crt /etc/nginx/url.tool.budblack.me.crt
 ADD ./url.tool.budblack.me.key /etc/nginx/url.tool.budblack.me.key
+
+ADD ./budblack.me.crt /etc/nginx/budblack.me.crt
+ADD ./budblack.me.key /etc/nginx/budblack.me.key
