@@ -4,4 +4,3 @@ MAINTAINER budblack@qq.com
 EXPOSE 80 443
 
 ADD ./nginx.conf /etc/nginx/nginx.conf
-ADD ./htpasswd /etc/nginx/htpasswd
