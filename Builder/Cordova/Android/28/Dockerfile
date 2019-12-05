@@ -1,5 +1,3 @@
 FROM beevelop/cordova
 
-RUN $ANDROID_HOME/tools/bin/sdkmanager "platform-tools"
-RUN $ANDROID_HOME/tools/bin/sdkmanager "build-tools;28.0.3"
-RUN $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-28"
+RUN sh -c "echo 'y' | $ANDROID_HOME/tools/bin/sdkmanager 'platform-tools' 'build-tools;28.0.3' 'platforms;android-28'"
